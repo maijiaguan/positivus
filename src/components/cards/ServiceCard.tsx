@@ -20,7 +20,7 @@ const ServiceCard = (props: ServiceCardProps) => {
   };
 
   return (
-    <article className={`cursor-pointer w-full h-[332px] ${bg[type]} border-[1px] rounded-[45px] p-[50px] box-shadow`}>
+    <article className={`cursor-pointer w-full h-[332px] ${bg[type]} border-[1px] rounded-[45px] p-[50px] box-shadow  animate-on-scroll`}>
         <div className="relative w-full h-full">
             <div className="w-full h-full flex flex-col items-start justify-between">
                 <Heading type={`${ht[type]}` as "pgreen" | "pgrey"} title={title} />

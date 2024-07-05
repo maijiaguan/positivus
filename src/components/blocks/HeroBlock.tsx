@@ -28,7 +28,9 @@ const HeroBlock = () => {
             <p>digital landscape</p>
             <p>for success</p>
           </h1>
-          <p className="text-mp font-light leading-[28px] xl:text-p">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+          <p className="text-mp font-light leading-[28px] xl:text-p">
+            Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
+          </p>
           <div>
             <Button type="primary" name="Book a consultation" />
           </div>
